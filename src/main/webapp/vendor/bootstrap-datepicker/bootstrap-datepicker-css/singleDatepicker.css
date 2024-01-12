@@ -1,0 +1,220 @@
+
+
+.graph-datepicker{
+	margin: 5px;
+}
+.graph-datepicker>div:last-child{
+	margin-top: 0px;
+}
+.sCalendar{
+	width: 30%;
+	margin: 5px;
+}
+.sCalendar>div:last-child{
+	margin: 0px;
+}
+
+
+.s-calendar-row{
+	width: 275px; 
+	background-color: #6a7177ed;
+	color: #c1c1c1;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+.s-calendar-row>div{
+	padding: 16px;
+}
+
+.s-calendar-row>div:last-child{
+	padding: 4px;
+	border-radius: 0px 0px 3px 3px;
+	width: 100%; 
+	display: inline-block; 
+	background-color: #6a7177ed;
+	padding: 8px 16px 8px 16px;
+}
+.s-calendar-row>div>div:last-child{
+	float: right;
+}
+
+.s-calendar-row>div>div:first-child{
+	float: left;
+}
+
+.s-calendar-row>div:last-child>button{
+	height: 28px;
+	border: 1px solid #b9b9b970;
+	border-radius: 2px;
+	font-size: 12px;
+	background-color: transparent;
+}
+
+.s-calendar-row>div:last-child>button:last-child{
+	background-color: #30de15;
+	float: right;
+	color: white;
+}
+
+.s-calendar-row>div>div>label{
+	font-size: 12px;
+	font-weight: 300;
+	margin-bottom: 2px;
+}
+
+.s-calendar-row>div>div>.form-control{
+	height: 28px;
+	border-radius: 2px;
+	background-color: transparent;
+	color: #ececec;
+	font-weight: 100;
+	padding-left: 8px;
+	font-size: 12px;
+	border: 1px solid #b9b9b970;
+}
+
+.s-calendar-row>div:first-child>div>.form-control{
+	padding-left: 8px;
+}
+
+.s-calendar-row>div>div{
+	width: 204px;
+}
+
+.s-calendar-row>div:first-child>div{
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.s-calendar-row>div>.calendar{
+	width: 214px;
+}
+
+.s-calendar>.table-responsive{
+	border: none;
+}
+
+.s-calendar>.table-responsive>table{
+	border-collapse: separate;
+	border-spacing: 0px 4px;	
+}
+
+.s-calendar{
+	float: left;
+	width: 230px;
+	margin-top: 16px;
+}
+
+.s-calendar>div>table{
+	margin-top: 16px;
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+.s-calendar>.table-responsive>.table>thead>tr>th{
+	padding: 6px 7px 6px 7px;
+	border: none;
+	text-align: center;
+	font-weight: 300;
+	font-size: 11px;
+	color: #b1b1b1e6;
+	background-color: transparent;
+}
+
+.s-calendar>.table-responsive>.table>tbody>tr{
+	margin-bottom: 4px;
+	background-color: transparent;
+}
+
+.s-calendar>.table-responsive>.table>tbody>tr>td{
+	padding: 0px;
+	border: none;
+	text-align: center;
+	font-weight: 700;
+	color: lightgray;
+	background-color: transparent;
+}
+
+.s-calendar>.table-responsive>.table>tbody>tr>td>button{
+	padding: 4px 7px 4px 7px;
+	border: none;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-color: transparent;
+}
+
+.s-calendar>.table-responsive>.table>tbody>tr>td>button:hover{
+	font-weight: 600;
+	cursor: pointer;
+	background-color: #30de15;
+}
+
+
+.s-calendar-header{
+	display: inline-block;
+	width: 240px;
+	font-weight: 600;
+	color: white;
+}
+
+.s-calendar-header>button{
+	background-color: transparent;
+	border: none;
+	height: 20px;
+	padding-top: 0px;
+	padding-bottom: 4px;
+}
+
+
+.s-calendar>.s-calendar-header>button:first-child{
+	float: left;
+}
+
+.s-calendar>.s-calendar-header>button:last-child{
+	float: right;
+}
+
+.s-calendar-header>button:hover{
+	background-color: lightgray;
+}
+
+.fa-angle-right, .fa-angle-left{
+	font-weight: 300;
+	font-size: 16px; 
+	color: #c1c1c1;
+}
+
+.fa-angle-left{
+	margin-left: 4px;
+}
+
+.fa-angle-right{
+	margin-right: 4px;
+}
+
+.today{
+	background-color: #8c8c8c;
+}
+
+.dropdown-menu{
+	padding: 0px;
+}
+
+.s-calendar>div:last-child>button{
+	font-weight: 600;
+	width: 92%;
+	background-color: lime;
+	color: #FFF;
+}
+
+@media(max-width: 500px){
+	.s-calendar-row{
+		width: 100%;
+	}
+
+	.s-calendar-row>div>div:last-child{
+		float: left;
+	}
+}

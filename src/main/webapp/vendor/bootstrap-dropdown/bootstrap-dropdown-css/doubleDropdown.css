@@ -1,0 +1,298 @@
+.dropdown-menu{
+	padding: 0px;
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.report-pair-dropdown>div>.btn{
+	border: 1px solid #37e21d;
+	background: transparent;
+}
+
+.report-pair-dropdown>div:first-child>.btn{
+	border-radius: 2px 0px 0px 2px;
+}
+
+.report-pair-dropdown>div:last-child>.btn{
+	border-radius: 0px 2px 2px 0px;
+	border-left: none;
+}
+
+.report-pair-dropdown>div>.btn>span{
+	margin-left: 4px;
+	color: #37e21d;
+	margin-top: -2px;
+}
+
+.g-report-dropdown-menu{
+	background-color: #6c7277f0;
+	display: inline-block;
+	width: 340px;
+}
+
+.g-report-dropdown-menu>div:nth-child(2){
+	display: inline-block;
+}
+
+.report-pair-dropdown>div:last-child>div{
+	left: -100;
+	top: 120%;
+}
+
+.report-pair-dropdown>div:first-child>div{
+	top: 120%;
+}
+
+.report-pair-dropdown>div:last-child>div>div{
+	background-color: #6c7277f0;
+	display: inline-block;
+	padding-bottom: 12px;
+}
+
+.report-pair-dropdown>div:first-child>div>div:first-child>div{
+	min-width: 170px;
+	float: left;
+}
+
+.report-pair-dropdown>div:first-child>div>div:first-child>div:nth-child(1){
+	border-right: 1px solid #6c6f77;
+}
+
+.report-dropdown-header{
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: 700;
+	margin-top: 16px;
+	margin-left: 12px;
+	margin-bottom: 8px;
+}
+
+.report-dropdown-header>span{
+	border-bottom: 1px dotted #87ceeb;
+}
+
+.report-pair-dropdown>div:first-child>div>div>div>div>button{
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	color: #c6c6c6;
+	text-align: left;
+}
+
+.report-pair-dropdown>div:first-child>div>div>div>div>button:hover{
+	background-color: #6a7278;
+}	
+
+.report-pair-dropdown>div:first-child>div>div>div>div>button>span:first-child{
+	color: #37e21d;
+	margin-left: 0px;
+	margin-right: 12px;
+}
+
+.report-pair-dropdown>div:first-child>div>div:last-child, .report-pair-dropdown>div:last-child>div>div:last-child{
+	height: 44px;
+	background-color: #4d575fdb;
+	width: 100%;
+}
+
+.report-pair-dropdown>div>div>div:last-child>div>button{
+	background-color: transparent;
+	color: #c6c6c6;
+	border: 1px solid #8b8b8b;
+	margin-left: 6px;
+}
+
+.report-pair-dropdown>div>div>div:last-child>div:first-child>button:first-child{
+	border-radius: 2px 0px 0px 2px;
+}
+
+.report-pair-dropdown>div>div>div:last-child>div:first-child>button:last-child{
+	border-radius: 2px 0px 0px 2px;
+}
+
+.report-pair-dropdown>div>div>div:last-child>div:last-child>button{
+	border-radius: 3px;
+	background-color: #2dd92d;
+	color: #FFFFFF;
+}
+
+.report-pair-dropdown>div:first-child>div>div:last-child, .report-pair-dropdown>div:last-child>div>div:last-child{
+	padding-top: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.report-pair-dropdown>div:last-child>div>div>div:first-child{
+	width: 50%;
+	float: left;
+}
+
+.report-pair-dropdown>div:last-child>div>div>div>div>button{
+	background-color: transparent; 
+	color: #dfdfdf;
+}
+
+.report-pair-dropdown>div:last-child>div>div>div>div>button>span:last-child{
+	margin-left: 20px;
+	margin-top: -1px;
+}
+
+.report-pair-dropdown>div:last-child>div>div>div>.dropdown{
+	padding-left: 12px;
+	padding-top: 4px;
+}
+
+.report-pair-dropdown>div:last-child>div>div>div>.form-group, .report-pair-dropdown>div:nth-child(2)>div>div>div>div:nth-child(4){
+	margin-left: 12px;
+}
+
+/*dropdown menu*/
+.g-dropdown-menu{
+	background-color: #6a7177ed;
+	min-width: 180px;
+}
+
+.dropdown-menu{
+	padding: 0px;
+	background-color: #6a71774a;
+	box-shadow: none;
+}
+
+.g-dropdown-menu>div{
+	border-bottom: 1px solid #636363;
+	padding: 2px;
+}
+
+.g-dropdown-menu>div>button{
+	background-color: transparent;
+	border:none;
+	width: 100%;
+	color: #eae9e9;
+	font-size: 10px;
+	text-align: left;
+}
+
+.g-dropdown-menu>div>button:hover{
+	background-color: #6a7177ed;
+	color: #fff;
+}
+
+/* for common css*/
+.btn{
+	background-color: #f9f9f9;
+	font-size: 11px;
+	height: 28px;
+	padding: 4px 12px;
+}
+
+.radio-box{
+	float: left;
+}
+
+.radio-box>div{
+	float: left;
+	margin: 0px 40px 0px 10px;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+.radio-box>label {
+    width: 15px;
+    height: 15px;
+    float: left;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #595959;
+    border-radius: 50%;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-box>label>input:checked ~.checkmark:after  {
+    display: block;
+}
+
+.radio-box>label>span:after {
+ 	top: 4px;
+    left: 4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #2bdf2b;
+}
+
+.radio-box>label>input[type="radio"]{
+	margin: 0px !important;
+	display: none !important;
+}
+
+.report-pair-dropdown>div:last-child>div>div>div>div:nth-child(2)>div{
+	left: 12;
+	top: 120%;
+}
+
+@media(max-width: 809px){
+	.radio-group>.radio-box:nth-child(2){
+		float: left;
+		width: 54%;
+	}
+
+	.radio-group>.radio-box:nth-child(3)>div{
+		margin-right: 29px;
+	}
+
+	.radio-box>div{
+		margin-bottom: 24px;
+	}
+}
+
+@media(max-width: 450px){
+	.report-pair-dropdown>div:last-child>div>div>div:first-child{
+		width: auto;
+	}
+
+	.radio-group>.radio-box:nth-child(2){
+		float: left;
+		width: auto;
+	}
+
+	.radio-box>div{
+		margin-bottom: 24px;
+	}
+}
+
+@media(max-width: 385px){
+	.report-pair-dropdown>div:first-child>div>div:first-child>div{
+		width: 100%;
+		float: initial;
+	}
+
+	.report-pair-dropdown>div:first-child>div{
+		width: 285%;
+	}
+
+	.report-pair-dropdown>div:first-child>div>div:first-child>div:last-child{
+		border-top: 1px solid #6c6f77;
+	}
+
+	.report-pair-dropdown>div:first-child>.dropdown-menu>div:first-child{
+		width: 100%;
+	}
+
+	.report-pair-dropdown>div>div>div:last-child{
+		height: auto;
+		background-color: #4d575fdb;
+		width: auto;
+	}
+}
